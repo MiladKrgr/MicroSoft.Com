@@ -1,33 +1,33 @@
-*{
+* {
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
 }
 
-body{
+body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #fff; 
+    background-color: #fff;
     color: #000;
     font-size: 15px;
     line-height: 1.5;
 }
 
-a{
+a {
     color: #262626;
     text-decoration: none;
 }
 
-ul{
+ul {
     list-style-type: none;
 }
 
 .Container {
     width: 90%;
-    max-width: 1100px ;
+    max-width: 1100px;
     margin: auto;
 }
 
-.Main-Nav{
+.Main-Nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -43,45 +43,46 @@ ul{
 .Main-Nav ul {
     display: flex;
 }
+
 /* *** */
-.Main-Nav ul li { 
-    padding: 0 10px ;
+.Main-Nav ul li {
+    padding: 0 10px;
 }
 
-.Main-Nav ul li a { 
-    padding-bottom: 2px ;
+.Main-Nav ul li a {
+    padding-bottom: 2px;
 }
 
-.Main-Nav ul li a:hover { 
+.Main-Nav ul li a:hover {
     border-bottom: 2px solid #262626;
 }
 
-.Main-Nav ul.Main-Menu{
+.Main-Nav ul.Main-Menu {
     flex: 1;
     margin-left: 20px;
 }
 
-.Btn{
+.Btn {
     display: inline-block;
     border: 0;
     font-weight: bold;
-    padding: 10px 20px ;
+    padding: 10px 20px;
     background-color: #262626;
     color: #fff;
     font-size: 15px;
 
 }
 
-.Btn:hover{
+.Btn:hover {
     opacity: 0.9;
 }
 
 /* Show Case  */
 
-.ShowCase{
+.ShowCase {
     width: 100%;
     height: 400px;
-    background: url('image/Slide1.png') no-repeat center center/cover;
+    background: url('image/slide1.png') no-repeat center center/cover;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -95,29 +96,29 @@ ul{
     margin-bottom: 10px;
 }
 
-.ShowCase .Btn{
+.ShowCase .Btn {
     margin-top: 20px;
 }
 
 /* Home Cards  */
 
-.Home-Cards{
+.Home-Cards {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
-    margin-bottom: 40px ;
+    margin-bottom: 40px;
 }
 
-.Home-Cards img{
+.Home-Cards img {
     width: 100%;
     margin-bottom: 20px;
 }
 
-.Home-Cards h3{
+.Home-Cards h3 {
     margin-bottom: 5px;
 }
 
-.Home-Cards a{
+.Home-Cards a {
     display: inline-block;
     padding-top: 10px;
     color: #0067b8;
@@ -127,35 +128,35 @@ ul{
 
 /* Xbox  */
 
-.Xbox{
+.Xbox {
     width: 100%;
     height: 350px;
     background: url('image/xbox.png') no-repeat center center/cover;
     margin-bottom: 20px;
 }
 
-.Xbox .Content{
+.Xbox .Content {
     width: 40%;
-    padding: 50px 0 0 30px ;
+    padding: 50px 0 0 30px;
     color: rgb(0, 0, 0);
 }
 
 .Xbox p {
-    margin: 10px 0 20px ;
+    margin: 10px 0 20px;
 }
 
 
 /* Carbon */
 
-.Carbon{
+.Carbon {
     width: 100%;
     height: 350px;
     background: url('image/carbon.jpg') no-repeat center center/cover;
 }
 
-.Carbon .Content{
+.Carbon .Content {
     width: 55%;
-    padding: 100px 0 0 30px ;
+    padding: 100px 0 0 30px;
 }
 
 .Bill {
@@ -163,11 +164,11 @@ ul{
     margin-top: 10px;
 }
 
-.Btns{
+.Btns {
     display: inline-block;
     border: 0;
     font-weight: bold;
-    padding: 10px 20px ;
+    padding: 10px 20px;
     background-color: #262626;
     color: #fff;
     font-size: 15px;
@@ -176,54 +177,56 @@ ul{
     margin-top: 15px;
 }
 
-.Follow{
+.Follow {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    margin: 30px 0 30px ;
+    margin: 30px 0 30px;
 }
+
 .Follow * {
     margin-right: 10px;
 }
-.Follow{
+
+.Follow {
     color: black;
     margin-bottom: 5px;
 }
 
 /* Links */
 
-.Links{
+.Links {
     background-color: #f2f2f2;
     color: #616161;
     font-size: 12px;
     padding: 35px 0;
 }
 
-.Link-inner{
+.Link-inner {
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 20px;
     display: grid;
-    grid-template-columns: repeat(6,1fr);
+    grid-template-columns: repeat(6, 1fr);
     gap: 10px;
     align-items: flex-start;
     justify-content: center;
 }
 
-.Links li{
+.Links li {
     line-height: 2.8;
 }
 
 /* Footer */
 
-.Footer{
+.Footer {
     background-color: #f2f2f2;
     color: #616161;
     font-size: 12px;
     padding: 35px;
 }
 
-.Footer-inner{
+.Footer-inner {
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 20px;
@@ -231,18 +234,19 @@ ul{
     align-items: center;
     justify-content: space-between;
 }
-.Footer div{
+
+.Footer div {
     margin-bottom: 20px;
     display: flex;
     align-items: center;
 }
 
-.Footer ul{
-    display:flex;
+.Footer ul {
+    display: flex;
     flex-wrap: wrap;
 }
 
-.Footer li{
+.Footer li {
     margin-right: 30px;
     margin-bottom: 20px;
 }
